@@ -26,7 +26,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const loginWithInstagram = () => {
-    window.location.href = `${process.env.REACT_APP_API_URL}/auth/instagram`;
+    window.location.href = `${process.env.REACT_APP_API_URL}/auth/login`;
   };
 
   const logout = async () => {
